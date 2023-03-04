@@ -8,12 +8,18 @@
 # amount2 = int(input('Введите кол-во элементов 2 множества: '))
 # myList1 = [random.randint(1, 20) for _ in range(amount1)]
 # myList2 = [random.randint(1, 20) for _ in range(amount2)]
-# set1 = {element for element in myList1}
-# set2 = {element for element in myList2}
-# setNew = set1.intersection(set2)
-# print(myList1)
-# print(myList2)
-# print(set1)
-# print(set2)
-# print(setNew)
+# a = {element for element in myList1}
+# b = {element for element in myList2}
+# set = a.intersection(b)
+# for i in myList1:
+#     print(i, end=' ')
+# print()
+# for i in myList2:
+#     print(i, end=' ')
+# print()
+# setNew = list(set)
+# setNew.sort()
+# for i in setNew:
+#     print(i, end=' ')
+
 
