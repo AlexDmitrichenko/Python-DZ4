@@ -17,12 +17,10 @@
 
 # for i in myList1:
 #     print(i, end=' ')
-
 # print()
 
 # for i in myList2:
 #     print(i, end=' ')
-
 # print()
 
 # setNew = list(set)
